@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery Of Fabizan</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header design start -->
+    <header class="header">
+      <a href="#" class="logo">Fabizan<span>Generation</span>.22</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+
+    </header>
+    <!-- header design end -->
+
+    <!-- home section 2 start -->
+    <section class="homet" id="home">
+      <div class="homet-content">
+        <h3>فبأي الاء ربكما تكذبان</h3>
+        <h2>Maka Nikmat Tuhanmu Yang Manakah Yang Kamu Dustakan?</h2>
+        <p>
+          Fascinate Generation With His Intellegent To Advance The Nasionalist
+          Nation
+        </p>
+        <div class="homet-content a">
+          <a href="#" class="btn">Pukul 22.35 WIB</a>
+        </div>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" data-src="img/Kok.png"></span>
+        <span class="vid-btn" data-src="img/Kok2.png"></span>
+        <span class="vid-btn" data-src="img/Kok3.png"></span>
+        <span class="vid-btn" data-src="img/Kok4.png"></span>
+      </div>
+
+      <div class="video-container">
+        <img src="img/Kok.png" id="video-slider" />
+        <!-- <video src="img/Kok.png" id="video-slider" loop autoplay></video> -->
+      </div>
+    </section>
+
+    <!-- home section 2 end -->
+
+    <!-- home section design start -->
+    <section class="home" id="sejarah" style="background-color: #323946">
+      <div class="home-img">
+        <img src="img/Brosur Dalam.jpg" alt="" />
+      </div>
+    </section>
+    <!-- home section design end -->
+
+    <!-- about section start -->
+    <!-- <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae incidunt fuga rerum sunt earum, eligendi deserunt ipsa non omnis inventore quaerat magni consequuntur saepe maxime ratione quis aspernatur quia nostrum dicta
+          laboriosam repellat voluptatem impedit. Deserunt incidunt aliquam non nesciunt sapiente tenetur suscipit sequi doloremque rerum.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+      <div class="about-img">
+        <img src="img/Logo Website.png" alt="" />
+      </div>
+    </section> -->
+
+    <!-- about section end -->
+
+    <!-- footer design start -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Created; by | https://github.com/Neim5408.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <!-- footer design end -->
+
+    <!-- scroll reveal start -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- scroll reveal end -->
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+    <!-- Audio -->
+    <script>
+      var MySong = document.getElementById("MySong");
+      var icon = document.getElementById("icon");
+      var MySong1 = document.getElementById("MySong1");
+      var icon1 = document.getElementById("icon1");
+      var MySong2 = document.getElementById("MySong2");
+      var icon2 = document.getElementById("icon2");
+      var MySong3 = document.getElementById("MySong3");
+      var icon3 = document.getElementById("icon3");
+
+      icon.onclick = function () {
+        if (MySong.paused) {
+          MySong.play();
+          icon.src;
+        } else {
+          MySong.pause();
+          icon.src;
+        }
+      };
+      icon1.onclick = function () {
+        if (MySong1.paused) {
+          MySong1.play();
+          icon1.src;
+        } else {
+          MySong1.pause();
+          icon1.src;
+        }
+      };
+      icon2.onclick = function () {
+        if (MySong2.paused) {
+          MySong2.play();
+          icon2.src;
+        } else {
+          MySong2.pause();
+          icon2.src;
+        }
+      };
+      icon3.onclick = function () {
+        if (MySong3.paused) {
+          MySong3.play();
+          icon3.src;
+        } else {
+          MySong3.pause();
+          icon3.src;
+        }
+      };
+    </script>
+  </body>
+</html>
